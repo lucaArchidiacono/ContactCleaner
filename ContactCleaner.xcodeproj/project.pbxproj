@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C403129728E499FC003BD9EF /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C403129628E499FC003BD9EF /* Tests_iOS.swift */; };
+		C403129928E499FC003BD9EF /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C403129828E499FC003BD9EF /* Tests_iOSLaunchTests.swift */; };
+		C40312A328E499FC003BD9EF /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40312A228E499FC003BD9EF /* Tests_macOS.swift */; };
+		C40312A528E499FC003BD9EF /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40312A428E499FC003BD9EF /* Tests_macOSLaunchTests.swift */; };
+		C40312A628E499FC003BD9EF /* ContactCleanerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C403127E28E499F5003BD9EF /* ContactCleanerApp.swift */; };
+		C40312A728E499FC003BD9EF /* ContactCleanerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C403127E28E499F5003BD9EF /* ContactCleanerApp.swift */; };
+		C40312A828E499FC003BD9EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C403127F28E499F5003BD9EF /* ContentView.swift */; };
+		C40312A928E499FC003BD9EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C403127F28E499F5003BD9EF /* ContentView.swift */; };
+		C40312AA28E499FC003BD9EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C403128028E499FC003BD9EF /* Assets.xcassets */; };
+		C40312AB28E499FC003BD9EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C403128028E499FC003BD9EF /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C403129328E499FC003BD9EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C403127928E499F5003BD9EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C403128428E499FC003BD9EF;
+			remoteInfo = "ContactCleaner (iOS)";
+		};
+		C403129F28E499FC003BD9EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C403127928E499F5003BD9EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C403128A28E499FC003BD9EF;
+			remoteInfo = "ContactCleaner (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C403127E28E499F5003BD9EF /* ContactCleanerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCleanerApp.swift; sourceTree = "<group>"; };
+		C403127F28E499F5003BD9EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C403128028E499FC003BD9EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C403128528E499FC003BD9EF /* ContactCleaner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactCleaner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C403128B28E499FC003BD9EF /* ContactCleaner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactCleaner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C403128D28E499FC003BD9EF /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		C403129228E499FC003BD9EF /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C403129628E499FC003BD9EF /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		C403129828E499FC003BD9EF /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		C403129E28E499FC003BD9EF /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C40312A228E499FC003BD9EF /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		C40312A428E499FC003BD9EF /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C403128228E499FC003BD9EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C403128828E499FC003BD9EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C403128F28E499FC003BD9EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C403129B28E499FC003BD9EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C403127828E499F5003BD9EF = {
+			isa = PBXGroup;
+			children = (
+				C403127D28E499F5003BD9EF /* Shared */,
+				C403128C28E499FC003BD9EF /* macOS */,
+				C403129528E499FC003BD9EF /* Tests iOS */,
+				C40312A128E499FC003BD9EF /* Tests macOS */,
+				C403128628E499FC003BD9EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C403127D28E499F5003BD9EF /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C403127E28E499F5003BD9EF /* ContactCleanerApp.swift */,
+				C403127F28E499F5003BD9EF /* ContentView.swift */,
+				C403128028E499FC003BD9EF /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		C403128628E499FC003BD9EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C403128528E499FC003BD9EF /* ContactCleaner.app */,
+				C403128B28E499FC003BD9EF /* ContactCleaner.app */,
+				C403129228E499FC003BD9EF /* Tests iOS.xctest */,
+				C403129E28E499FC003BD9EF /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C403128C28E499FC003BD9EF /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				C403128D28E499FC003BD9EF /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		C403129528E499FC003BD9EF /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C403129628E499FC003BD9EF /* Tests_iOS.swift */,
+				C403129828E499FC003BD9EF /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		C40312A128E499FC003BD9EF /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				C40312A228E499FC003BD9EF /* Tests_macOS.swift */,
+				C40312A428E499FC003BD9EF /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C403128428E499FC003BD9EF /* ContactCleaner (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C40312AE28E499FC003BD9EF /* Build configuration list for PBXNativeTarget "ContactCleaner (iOS)" */;
+			buildPhases = (
+				C403128128E499FC003BD9EF /* Sources */,
+				C403128228E499FC003BD9EF /* Frameworks */,
+				C403128328E499FC003BD9EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ContactCleaner (iOS)";
+			productName = "ContactCleaner (iOS)";
+			productReference = C403128528E499FC003BD9EF /* ContactCleaner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C403128A28E499FC003BD9EF /* ContactCleaner (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C40312B128E499FC003BD9EF /* Build configuration list for PBXNativeTarget "ContactCleaner (macOS)" */;
+			buildPhases = (
+				C403128728E499FC003BD9EF /* Sources */,
+				C403128828E499FC003BD9EF /* Frameworks */,
+				C403128928E499FC003BD9EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ContactCleaner (macOS)";
+			productName = "ContactCleaner (macOS)";
+			productReference = C403128B28E499FC003BD9EF /* ContactCleaner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C403129128E499FC003BD9EF /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C40312B428E499FC003BD9EF /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				C403128E28E499FC003BD9EF /* Sources */,
+				C403128F28E499FC003BD9EF /* Frameworks */,
+				C403129028E499FC003BD9EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C403129428E499FC003BD9EF /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = C403129228E499FC003BD9EF /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		C403129D28E499FC003BD9EF /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C40312B728E499FC003BD9EF /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				C403129A28E499FC003BD9EF /* Sources */,
+				C403129B28E499FC003BD9EF /* Frameworks */,
+				C403129C28E499FC003BD9EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C40312A028E499FC003BD9EF /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = C403129E28E499FC003BD9EF /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C403127928E499F5003BD9EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					C403128428E499FC003BD9EF = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					C403128A28E499FC003BD9EF = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					C403129128E499FC003BD9EF = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = C403128428E499FC003BD9EF;
+					};
+					C403129D28E499FC003BD9EF = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = C403128A28E499FC003BD9EF;
+					};
+				};
+			};
+			buildConfigurationList = C403127C28E499F5003BD9EF /* Build configuration list for PBXProject "ContactCleaner" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C403127828E499F5003BD9EF;
+			productRefGroup = C403128628E499FC003BD9EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C403128428E499FC003BD9EF /* ContactCleaner (iOS) */,
+				C403128A28E499FC003BD9EF /* ContactCleaner (macOS) */,
+				C403129128E499FC003BD9EF /* Tests iOS */,
+				C403129D28E499FC003BD9EF /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C403128328E499FC003BD9EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40312AA28E499FC003BD9EF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C403128928E499FC003BD9EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40312AB28E499FC003BD9EF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C403129028E499FC003BD9EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C403129C28E499FC003BD9EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C403128128E499FC003BD9EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40312A828E499FC003BD9EF /* ContentView.swift in Sources */,
+				C40312A628E499FC003BD9EF /* ContactCleanerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C403128728E499FC003BD9EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40312A928E499FC003BD9EF /* ContentView.swift in Sources */,
+				C40312A728E499FC003BD9EF /* ContactCleanerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C403128E28E499FC003BD9EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C403129928E499FC003BD9EF /* Tests_iOSLaunchTests.swift in Sources */,
+				C403129728E499FC003BD9EF /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C403129A28E499FC003BD9EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40312A528E499FC003BD9EF /* Tests_macOSLaunchTests.swift in Sources */,
+				C40312A328E499FC003BD9EF /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C403129428E499FC003BD9EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C403128428E499FC003BD9EF /* ContactCleaner (iOS) */;
+			targetProxy = C403129328E499FC003BD9EF /* PBXContainerItemProxy */;
+		};
+		C40312A028E499FC003BD9EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C403128A28E499FC003BD9EF /* ContactCleaner (macOS) */;
+			targetProxy = C403129F28E499FC003BD9EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C40312AC28E499FC003BD9EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C40312AD28E499FC003BD9EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C40312AF28E499FC003BD9EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.lucaarchidiacono.ContactCleaner;
+				PRODUCT_NAME = ContactCleaner;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C40312B028E499FC003BD9EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.lucaarchidiacono.ContactCleaner;
+				PRODUCT_NAME = ContactCleaner;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C40312B228E499FC003BD9EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.lucaarchidiacono.ContactCleaner;
+				PRODUCT_NAME = ContactCleaner;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C40312B328E499FC003BD9EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.lucaarchidiacono.ContactCleaner;
+				PRODUCT_NAME = ContactCleaner;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C40312B528E499FC003BD9EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.lucaarchidiacono.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ContactCleaner (iOS)";
+			};
+			name = Debug;
+		};
+		C40312B628E499FC003BD9EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.lucaarchidiacono.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ContactCleaner (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C40312B828E499FC003BD9EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.lucaarchidiacono.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "ContactCleaner (macOS)";
+			};
+			name = Debug;
+		};
+		C40312B928E499FC003BD9EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.lucaarchidiacono.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "ContactCleaner (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C403127C28E499F5003BD9EF /* Build configuration list for PBXProject "ContactCleaner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C40312AC28E499FC003BD9EF /* Debug */,
+				C40312AD28E499FC003BD9EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C40312AE28E499FC003BD9EF /* Build configuration list for PBXNativeTarget "ContactCleaner (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C40312AF28E499FC003BD9EF /* Debug */,
+				C40312B028E499FC003BD9EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C40312B128E499FC003BD9EF /* Build configuration list for PBXNativeTarget "ContactCleaner (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C40312B228E499FC003BD9EF /* Debug */,
+				C40312B328E499FC003BD9EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C40312B428E499FC003BD9EF /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C40312B528E499FC003BD9EF /* Debug */,
+				C40312B628E499FC003BD9EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C40312B728E499FC003BD9EF /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C40312B828E499FC003BD9EF /* Debug */,
+				C40312B928E499FC003BD9EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C403127928E499F5003BD9EF /* Project object */;
+}
