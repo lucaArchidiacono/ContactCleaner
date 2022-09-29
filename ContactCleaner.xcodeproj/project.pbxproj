@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8152827E28E5E27600BA1A33 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8152827D28E5E27600BA1A33 /* ContactView.swift */; };
+		8152827F28E5E27600BA1A33 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8152827D28E5E27600BA1A33 /* ContactView.swift */; };
 		C403129728E499FC003BD9EF /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C403129628E499FC003BD9EF /* Tests_iOS.swift */; };
 		C403129928E499FC003BD9EF /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C403129828E499FC003BD9EF /* Tests_iOSLaunchTests.swift */; };
 		C40312A328E499FC003BD9EF /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40312A228E499FC003BD9EF /* Tests_macOS.swift */; };
@@ -17,6 +19,16 @@
 		C40312A928E499FC003BD9EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C403127F28E499F5003BD9EF /* ContentView.swift */; };
 		C40312AA28E499FC003BD9EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C403128028E499FC003BD9EF /* Assets.xcassets */; };
 		C40312AB28E499FC003BD9EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C403128028E499FC003BD9EF /* Assets.xcassets */; };
+		C40312BB28E49B26003BD9EF /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40312BA28E49B26003BD9EF /* ContentViewModel.swift */; };
+		C40312BC28E49B26003BD9EF /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40312BA28E49B26003BD9EF /* ContentViewModel.swift */; };
+		C4CC325A28E57DE20020D9C9 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CC325928E57DE20020D9C9 /* Contact.swift */; };
+		C4CC325B28E57DE20020D9C9 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CC325928E57DE20020D9C9 /* Contact.swift */; };
+		C4CC325D28E5928C0020D9C9 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CC325C28E5928C0020D9C9 /* ErrorView.swift */; };
+		C4CC325E28E5928C0020D9C9 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CC325C28E5928C0020D9C9 /* ErrorView.swift */; };
+		C4CC326028E5A1770020D9C9 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CC325F28E5A1770020D9C9 /* Alert.swift */; };
+		C4CC326128E5A1770020D9C9 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CC325F28E5A1770020D9C9 /* Alert.swift */; };
+		C4CC326328E5A1E10020D9C9 /* AlertType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CC326228E5A1E10020D9C9 /* AlertType.swift */; };
+		C4CC326428E5A1E10020D9C9 /* AlertType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CC326228E5A1E10020D9C9 /* AlertType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8152827D28E5E27600BA1A33 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
 		C403127E28E499F5003BD9EF /* ContactCleanerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCleanerApp.swift; sourceTree = "<group>"; };
 		C403127F28E499F5003BD9EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C403128028E499FC003BD9EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +62,11 @@
 		C403129E28E499FC003BD9EF /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C40312A228E499FC003BD9EF /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		C40312A428E499FC003BD9EF /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		C40312BA28E49B26003BD9EF /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		C4CC325928E57DE20020D9C9 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		C4CC325C28E5928C0020D9C9 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		C4CC325F28E5A1770020D9C9 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		C4CC326228E5A1E10020D9C9 /* AlertType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +118,12 @@
 				C403127E28E499F5003BD9EF /* ContactCleanerApp.swift */,
 				C403127F28E499F5003BD9EF /* ContentView.swift */,
 				C403128028E499FC003BD9EF /* Assets.xcassets */,
+				C40312BA28E49B26003BD9EF /* ContentViewModel.swift */,
+				C4CC325928E57DE20020D9C9 /* Contact.swift */,
+				C4CC325C28E5928C0020D9C9 /* ErrorView.swift */,
+				C4CC325F28E5A1770020D9C9 /* Alert.swift */,
+				C4CC326228E5A1E10020D9C9 /* AlertType.swift */,
+				8152827D28E5E27600BA1A33 /* ContactView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -222,7 +246,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
-				LastUpgradeCheck = 1330;
+				LastUpgradeCheck = 1400;
 				TargetAttributes = {
 					C403128428E499FC003BD9EF = {
 						CreatedOnToolsVersion = 13.3;
@@ -299,8 +323,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4CC326028E5A1770020D9C9 /* Alert.swift in Sources */,
 				C40312A828E499FC003BD9EF /* ContentView.swift in Sources */,
+				C4CC325D28E5928C0020D9C9 /* ErrorView.swift in Sources */,
+				8152827E28E5E27600BA1A33 /* ContactView.swift in Sources */,
+				C4CC325A28E57DE20020D9C9 /* Contact.swift in Sources */,
 				C40312A628E499FC003BD9EF /* ContactCleanerApp.swift in Sources */,
+				C40312BB28E49B26003BD9EF /* ContentViewModel.swift in Sources */,
+				C4CC326328E5A1E10020D9C9 /* AlertType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,8 +338,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4CC326128E5A1770020D9C9 /* Alert.swift in Sources */,
 				C40312A928E499FC003BD9EF /* ContentView.swift in Sources */,
+				C4CC325E28E5928C0020D9C9 /* ErrorView.swift in Sources */,
+				8152827F28E5E27600BA1A33 /* ContactView.swift in Sources */,
+				C4CC325B28E57DE20020D9C9 /* Contact.swift in Sources */,
 				C40312A728E499FC003BD9EF /* ContactCleanerApp.swift in Sources */,
+				C40312BC28E49B26003BD9EF /* ContentViewModel.swift in Sources */,
+				C4CC326428E5A1E10020D9C9 /* AlertType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +416,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -438,6 +475,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -463,8 +501,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27QQ4H5V76;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSContactsUsageDescription = "To be able to clean your double entries of contacts, the App needs full Contact access.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -492,8 +532,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27QQ4H5V76;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSContactsUsageDescription = "To be able to clean your double entries of contacts, the App needs full Contact access.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -521,9 +563,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -547,9 +591,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -612,6 +658,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
@@ -630,6 +677,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
